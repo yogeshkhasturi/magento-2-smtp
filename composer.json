@@ -1,36 +1,34 @@
 {
-  "name": "mageplaza/module-smtp",
-  "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
+  "name": "webiators/module-deleteordersfromadmin",
+  "description": "Delete Orders From Admin extension by Webiators can help to delete one or multiple orders from admin panel.",
   "require": {
-    "mageplaza/module-core": "^1.4.5"
+     "php": "~5.5.0|~5.6.0|~7.0.0"
   },
   "type": "magento2-module",
-  "version": "4.3.2",
+  "version": "1.0.0",
   "license": "proprietary",
   "authors": [
     {
-      "name": "Mageplaza",
-      "email": "support@mageplaza.com",
-      "homepage": "https://www.mageplaza.com",
+      "name": "Webiators Technologies Private Limited",
+      "email": "support@webiators.com",
+      "homepage": "webiators.com",
       "role": "Technical Support"
     }
   ],
   "minimum-stability": "dev",
   "keywords": [
     "magento 2",
-    "magento 2 smtp",
-    "magento smtp",
+    "magento 2 reindex from admin",
+    "magento reindex",
     "mageplaza",
-    "smtp",
-    "email settings",
-    "gmail smtp"
+    "reindex"
   ],
   "autoload": {
     "files": [
       "registration.php"
     ],
     "psr-4": {
-      "Mageplaza\\Smtp\\": ""
+      "Webiators\\DeleteOrdersFromAdmin\\": ""
     }
   }
 }
